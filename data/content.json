@@ -1,12 +1,12 @@
 {
   "hero": {
-    "eyebrow": "Tehran, Iran — NODET / SAMPAD, Biology Track",
+    "eyebrow": "Tehran, Iran — Biology Track",
     "firstName": "Roham",
     "lastName": "Mohamadi",
     "subtitle": "A biology-track student who reads cells the way others read stories, writes a little code on the side, and is curious whether dentistry is where precision meets biology."
   },
   "about": {
-    "lead": "I'm Roham, a biology-track student in the NODET (SAMPAD) system in Tehran — a national program for students who lean hard into science early. Biology is where I spend most of my attention: how cells organize themselves, how genetics quietly writes the instructions for everything alive.",
+    "lead": "I'm Roham, a biology-track student in the Biology is where I spend most of my attention: how cells organize themselves, how genetics quietly writes the instructions for everything alive.",
     "detail": "Outside of biology, I've been teaching myself programming, mostly because I like the same thing about code that I like about biology: small, precise rules producing something much bigger than themselves. I'm also increasingly interested in dentistry — a field that sits right at the intersection of biological knowledge and exact, hands-on craft. I'm based in Tehran for now, though I'm keeping an open mind about studying abroad down the line."
   },
   "interests": {
@@ -15,25 +15,25 @@
     "card3": { "tag": "SPECIMEN C", "title": "Dentistry", "description": "A growing interest — biological knowledge applied by hand, with precision and care. One of the paths I'm considering seriously." }
   },
   "timeline": {
-    "item1": { "title": "Now", "description": "Studying on the biology track at NODET (SAMPAD) in Tehran." },
+    "item1": { "title": "Now", "description": "Studying on the biology track in Tehran." },
     "item2": { "title": "Alongside", "description": "Teaching myself the basics of programming, project by project." },
     "item3": { "title": "Considering", "description": "Dentistry as a field where biology becomes something you do with your hands." },
     "item4": { "title": "Ahead", "description": "Staying open to studying abroad as the next step, wherever it leads." }
   },
   "skills": {
     "skill1": { "name": "Biology fundamentals", "level": 88 },
-    "skill2": { "name": "Genetics", "level": 75 },
+    "skill2": { "name": "English", "level": 60 },
     "skill3": { "name": "Programming basics", "level": 55 },
     "skill4": { "name": "Scientific curiosity", "level": 97 }
   },
   "now": {
-    "text": "Preparing for the biology olympiad and writing small Python scripts to analyze practice-test results.",
+    "text": "studying , studying and studying",
     "updated": "August 2026"
   },
   "achievements": {
-    "ach1": { "title": "Achievement 1", "note": "Add a title and short note from the admin panel.", "image": "" },
-    "ach2": { "title": "Achievement 2", "note": "Add a title and short note from the admin panel.", "image": "" },
-    "ach3": { "title": "Achievement 3", "note": "Add a title and short note from the admin panel.", "image": "" }
+    "ach1": { "title": "Achievement 1", "note": "", "image": "" },
+    "ach2": { "title": "Achievement 2", "note": "", "image": "" },
+    "ach3": { "title": "Achievement 3", "note": "", "image": "" }
   },
   "biography": {
     "pageTitle": "The Roham Mohamadi Archive",
@@ -44,9 +44,9 @@
       "body": "I grew up in Tehran, and for as long as I can remember I've been the kind of kid who takes things apart to see how they work — not always successfully putting them back together. That habit turned out to be good training for biology: living things are also systems you take apart, piece by piece, to understand."
     },
     "topic2": {
-      "folderLabel": "002 — NODET / SAMPAD",
+      "folderLabel": "002 — SCHOOL",
       "title": "Joining the biology track",
-      "body": "I'm a student in Iran's NODET (SAMPAD) system, on the biology track — a national program for students who want to go deep into science earlier than a normal curriculum allows. It's demanding, but it's the first place I was surrounded by people who cared about the same things I did."
+      "body": "I'm a student in Iran's SAMPAD system, on the biology track — a national program for students who want to go deep into science earlier than a normal curriculum allows. It's demanding, but it's the first place I was surrounded by people who cared about the same things I did."
     },
     "topic3": {
       "folderLabel": "003 — BIOLOGY",
@@ -66,7 +66,7 @@
   },
   "contact": {
     "description": "Open to conversations about biology, code, dentistry, or where those three overlap.",
-    "email": "your-email@example.com",
+    "email": "roham.dente@gmail.com",
     "linkedin": "#",
     "github": "#",
     "instagram": "#"
