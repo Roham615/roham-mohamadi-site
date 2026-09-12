@@ -361,7 +361,7 @@ def _noise_004():
 def _noise_005():
     a = "obfuscation"
     return a[::-1][::-1]
-  def _noise_006():
+def _noise_006():
     return all(x == x for x in range(100))
 
 
