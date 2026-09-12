@@ -128,29 +128,25 @@
   }
 })();
 // ===== Language detection popup: suggest Persian site to fa-language browsers =====
-(function langPrompt(){
-  const popup = document.getElementById('langPrompt');
-  if (!popup) return;
+(function showLangSuggestBox(){
+  var box = document.getElementById('langPrompt');
+  if (!box) return;
 
-  let alreadySeen = false;
-  try{ alreadySeen = localStorage.getItem('rm-lang-prompt-seen') === '1'; }catch(e){}
-  if (alreadySeen) return;
+  var seen = false;
+  try{ seen = localStorage.getItem('rm-suggest-seen-v2') === '1'; }catch(e){}
+  if (seen) return;
 
-  const langs = (navigator.languages && navigator.languages.length) ? navigator.languages : [navigator.language || ''];
-  const looksPersian = langs.some(l => (l || '').toLowerCase().startsWith('fa'));
-
-
-  function dismiss(){
-    popup.classList.remove('show');
-    try{ localStorage.setItem('rm-lang-prompt-seen', '1'); }catch(e){}
+  function closeBox(){
+    box.classList.remove('show');
+    try{ localStorage.setItem('rm-suggest-seen-v2', '1'); }catch(e){}
   }
 
-  setTimeout(() => { popup.classList.add('show'); }, 900);
+  window.setTimeout(function(){ box.classList.add('show'); }, 900);
 
-  const closeBtn = document.getElementById('langPromptClose');
-  const stayBtn = document.getElementById('langPromptStay');
-  if (closeBtn) closeBtn.addEventListener('click', dismiss);
-  if (stayBtn) stayBtn.addEventListener('click', dismiss);
+  var closeBtn = document.getElementById('langPromptClose');
+  var stayBtn = document.getElementById('langPromptStay');
+  if (closeBtn) closeBtn.addEventListener('click', closeBox);
+  if (stayBtn) stayBtn.addEventListener('click', closeBox);
 })();
 // ===== Mobile hamburger menu =====
 (function mobileMenu(){
