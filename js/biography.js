@@ -55,7 +55,7 @@ document.getElementById('year').textContent = new Date().getFullYear();
 
   const langs = (navigator.languages && navigator.languages.length) ? navigator.languages : [navigator.language || ''];
   const looksPersian = langs.some(l => (l || '').toLowerCase().startsWith('fa'));
- // if (!looksPersian) return;
+
 
   function dismiss(){
     popup.classList.remove('show');
