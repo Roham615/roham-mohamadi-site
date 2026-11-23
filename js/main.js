@@ -256,7 +256,7 @@ skillBars.forEach(el => skillObserver.observe(el));
   const stages = [
     { path: ekgPath, label: 'vitals', duration: 1500 },
     { path: codePath, label: 'code', duration: 1600 },
-    { path: molarPath, label: 'molar', duration: 1400 }
+    { path: molarPath, label: 'studying', duration: 1400 }
   ];
 
   stages.forEach(s => {
@@ -284,7 +284,7 @@ skillBars.forEach(el => skillObserver.observe(el));
     path.style.transition = `stroke-dashoffset ${stage.duration}ms cubic-bezier(.65,0,.35,1)`;
     requestAnimationFrame(() => { path.style.strokeDashoffset = '0'; });
 
-    if (caption) caption.textContent = `vitals \u2192 code \u2192 molar \u2014 now: ${stage.label}`;
+    if (caption) caption.textContent = `vitals \u2192 code \u2192 studying \u2014 now: ${stage.label}`;
 
     timer = setTimeout(() => {
       // fade this stage out
